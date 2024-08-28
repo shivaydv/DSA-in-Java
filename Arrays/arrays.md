@@ -55,3 +55,49 @@ int[][][] intArray = new int[10][20][10]; //a 3D array
 - **Fixed Size:**  Once an array is created, its size cannot be changed, which can lead to memory waste if the size is overestimated or insufficient storage if underestimated.
 - **Type Homogeneity:** Arrays can only store elements of the same data type, which may require additional handling for mixed types of data.
 - **Insertion and Deletion:** Inserting or deleting elements, especially in the middle of an array, can be costly as it may require shifting elements.
+
+# Questions
+
+## 1. Single Number
+
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+
+
+#### Time Complexity - O(n^2)
+
+```java
+    public static int singleNum(int[] arr) {
+        for(int i=0;i<arr.length;i++){
+            for(int j=0;j<arr.length;j++){
+                if(arr[i] == arr[j] && arr[i] != -1 && i != j){
+                    arr[i] = -1;
+                    arr[j] = -1;
+                }
+            }
+        if(arr[i] != -1) return arr[i];
+        }
+    return -1;
+    }
+```
+
+#### Time Complexity - O(n)
+
+0^num = num \
+same num ^ same num =0 \
+
+
+2^2^1 =1 \
+3^4^5^2^4^5^3 = 2
+
+```java
+public static int singleNum(int[] arr) {
+        int ans=0;
+        for(int i=0;i<arr.length;i++){
+            ans = ans^arr[i];
+        }
+        return ans;
+    }
+```
+
+[Leetcode Problem](https://leetcode.com/problems/single-number) \
+[Solution](./singleNumber.java)
