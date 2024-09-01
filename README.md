@@ -8,3 +8,4 @@ This repository contains a comprehensive collection of Data Structures and Algor
 - [Bitwise Operators and Operations](./Bitwise/Bitwise.md)
 - [Number System](./Number%20System/Number%20System.md)
 - [Basic Problems](./Basic%20Problems/Basic%20Problems.md)
+- [Arrays](./Arrays/arrays.md)
