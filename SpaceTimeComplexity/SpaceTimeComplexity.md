@@ -4,7 +4,7 @@ Time Taken by code to execute a particular task as a function of length of input
 
 # Space Complexity
 
-Additional Space taken by code to execute a particular task a function of length of input.
+Additional Space taken by code to execute a particular task as a function of length of input.
 
 # Types of Notation
 
