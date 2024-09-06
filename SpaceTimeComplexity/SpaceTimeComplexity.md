@@ -14,11 +14,11 @@ Additional Space taken by code to execute a particular task a function of length
 
 # Types of Big-O Notation
 
-1. Constant - O(1)
-2. Linear - O(n)
-3. Log - O(log n)
-4. Quad - O(n^2)
-5. Cubic - O(n^3)
+- [Constant - O(1)](./constant.java)
+- [Linear - O(n)](./linear.java)
+- [Log - O(log n)](./logarithmic.java)
+- [Quad - O(n^2)](./quad.java)
+- Cubic - O(n^3)
 
 
 
