@@ -54,7 +54,9 @@ System.out.println("Binary of the number is: "+res);
 ### [Code](./convertor.java)
 
 
-# Reverse Number
+# Questions
+
+## Reverse Number
 
 ### Algorithm
 
@@ -66,3 +68,23 @@ System.out.println("Binary of the number is: "+res);
 
 [LeetCode Problem](https://leetcode.com/problems/reverse-integer/description/) \
 [Solution](./reverseint.java)
+
+## Power of 2
+
+if the number is power of two then its binary will only have one "1" bit.
+
+2-10 \
+4-100 \
+8 - 1000
+
+6 - 110 (not a power of two)
+
+### Algorithm
+1. take the last bit of number
+1. Right Shift by 1
+1. if last bit it 1 and number !=0
+1. return false
+1. else return true
+
+[LeetCode Problem](https://leetcode.com/problems/power-of-two/description/) \
+[Solution](./powerOfTwo.java)
