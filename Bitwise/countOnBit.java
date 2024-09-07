@@ -1,6 +1,6 @@
-// WAP to count the number of 1 bits in an integer.
+// count the total number of 1's in a binary of an integer.
 
-public class counting1bit {
+public class countOnBit {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class counting1bit {
             num = num>>1;
         }
 
-        System.out.println("Number of 1 bits in the given number is: "+count);
+        System.out.println("Total number of 1's = "+count);
 
     }
 }
