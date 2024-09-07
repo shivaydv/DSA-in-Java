@@ -11,6 +11,8 @@ Bitwise Operations are always faster that the arithmetic operations
 - Left Shift  - <<
 - Right Shift - >>
 
+### [Operators Usage](./operator.java)
+
 ![Operator](https://media.geeksforgeeks.org/wp-content/uploads/20220922145839/BItwiseoperatortruthtable-300x197.png)
 
 # Even or Odd
@@ -42,7 +44,7 @@ else{
 
 }
 ```
-### [Code](./operator.java)
+
 
 # Questions
 
