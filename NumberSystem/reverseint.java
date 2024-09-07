@@ -2,7 +2,7 @@ public class reverseint {
 
     static int reverse(int num){
         int result = 0;
-            while(num>0){
+            while(num!=0){
                 int lastdigit = num%10;
 
                 //check if number is within the range of integer after multiplying by 10
@@ -17,7 +17,7 @@ public class reverseint {
         }
 
       public static void main(String[] args) {
-           int ans = reverse(23642464);
+           int ans = reverse(-321);
            System.out.println(ans);
       }
 

@@ -64,7 +64,7 @@ System.out.println("Binary of the number is: "+res);
 2. check if the result is within the range of integer after multiply it by 10
 2. Store it in result (result = result*10 +lastdigit)
 3. divide the number by 10
-4. do it till number is greater than 0
+4. do it till number != 0
 
 [LeetCode Problem](https://leetcode.com/problems/reverse-integer/description/) \
 [Solution](./reverseint.java)
