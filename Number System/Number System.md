@@ -3,7 +3,10 @@
 ![Number System Image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224434/Number-System.png)
 
 
-# Convert Decimal to Binary
+
+## Decimal-Binary Conversion
+
+### Ways to Convert Decimal to Binary
 
 1. Binary Timeline
 
@@ -13,13 +16,13 @@
 
 ![Division Method](https://media.geeksforgeeks.org/wp-content/uploads/decimal2binaryPython.png)
 
-# Algorithm for decimal to binary (Not Optimised)
+### Algorithm for decimal to binary (Not Optimised)
 
 1. Take input from user
 2. loop until num > 0
-*   rem = num %2
-*   num = num /2
-*   res = rem + res
+1.   rem = num %2
+1.   num = num /2
+1.   res = rem + res
 3. end loop
 4. print res
 
@@ -35,7 +38,7 @@ while(num>0){
 
 System.out.println("Binary of the number is: "+res);
 ```
-# Optimised Conversion at Bit Level
+## Optimised Conversion at Bit Level
 
 ### Algorithm toBinary
 
@@ -51,40 +54,4 @@ System.out.println("Binary of the number is: "+res);
 3. add 2^index in the result
 4. Do it till number become 0
 
-### [Code](./convertor.java)
-
-
-# Questions
-
-## Reverse Number
-
-### Algorithm
-
-1. Take the last digit
-2. check if the result is within the range of integer after multiply it by 10
-2. Store it in result (result = result*10 +lastdigit)
-3. divide the number by 10
-4. do it till number != 0
-
-[LeetCode Problem](https://leetcode.com/problems/reverse-integer/description/) \
-[Solution](./reverseint.java)
-
-## Power of 2
-
-if the number is power of two then its binary will only have one "1" bit.
-
-2-10 \
-4-100 \
-8 - 1000
-
-6 - 110 (not a power of two)
-
-### Algorithm
-1. take the last bit of number
-1. Right Shift by 1
-1. if last bit it 1 and number !=0
-1. return false
-1. else return true
-
-[LeetCode Problem](https://leetcode.com/problems/power-of-two/description/) \
-[Solution](./powerOfTwo.java)
+### [Solution](./convertor.java)

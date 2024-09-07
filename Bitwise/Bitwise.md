@@ -48,5 +48,5 @@ else{
 
 # Questions
 
-- [Count the number of 1 bits in an integer.](./counting1bit.java)
+- [Count the number of 1 bits in an integer.](./countOnBit.java)
 - [Counting Bits - Leetcode](https://leetcode.com/problems/counting-bits/)

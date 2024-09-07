@@ -1,4 +1,4 @@
-public class reverseint {
+public class reverseInt {
 
     static int reverse(int num){
         int result = 0;
