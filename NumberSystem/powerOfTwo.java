@@ -2,7 +2,7 @@
 public class powerOfTwo {
 
     static boolean isPowerOfTwo(int num) {
-        if (num < 0) {
+        if (num <= 0) {
             return false;
         }
         while (num != 0) {
