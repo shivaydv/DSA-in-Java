@@ -60,6 +60,8 @@ int[][][] intArray = new int[10][20][10]; //a 3D array
 
 ## 1. Single Number
 
+[Leetcode Problem](https://leetcode.com/problems/single-number)
+
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 
 
@@ -99,5 +101,40 @@ public static int singleNum(int[] arr) {
     }
 ```
 
-[Leetcode Problem](https://leetcode.com/problems/single-number) \
 [Solution](./singleNumber.java)
+
+## 2. Two Sum
+
+[Leetcode Problem](https://leetcode.com/problems/two-sum)
+
+#### Time Complexity - O(n^2)
+
+```java
+public class TwoSum {
+    public static int[] twoSum(int[] nums, int target) {
+        int size = nums.length;
+        for(int i =0; i<size-1;i++){
+            int targetsum = target - nums[i];
+            for(int j =i+1;j<size;j++){
+                if(targetsum == nums[j]){
+                    return new int[]{i,j};
+                }
+            }
+        }
+        return new int[] {-1,-1};
+    }
+    public static void main (String[] args){
+        int[] arr = {2,7,11,15};
+        int target = 9;
+        int[] result = twoSum(arr,target);
+        System.out.println(result[0] + " " + result[1]);
+    }
+}
+```
+
+#### Optimised Solution - Hashmap
+
+```java
+```
+
+[Solution](./TwoSum.java)
